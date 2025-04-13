@@ -8,7 +8,7 @@ Created on Fri Feb 14 14:49:52 2025
 import os
 #please choose the path where the files are stored on your computer
 #between the quotations below
-os.chdir("C:/Users/anjrini/Desktop/r/p2/amex2")
+os.chdir("C:/Users/anjrini/Desktop/p/amex2")
 import pandas as pd
 import numpy as np
 import preparation
