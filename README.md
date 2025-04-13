@@ -59,6 +59,7 @@ The results shoud appear as in the photo below:
 - The **ISLP Library**  is required and has to be downloaded using:
 ``` pip install ISLP ```
 
+
 ## Instructions on dowloading the data from the amex website
 
 - First visit the website:
@@ -74,4 +75,5 @@ The results shoud appear as in the photo below:
 Should you have any query, kindly contact me.
 
 Best regards,
+
 Mustafa Anjrini
