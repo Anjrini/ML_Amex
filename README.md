@@ -19,7 +19,7 @@ The methods implemented are:
  ```
 https://www.americanexpress.com/de-de/account/login?inav=iNLogBtn
 
->Note: a dummy Excel data named "data.xlsx" is uploaded along with the   scripts
+Note: a dummy Excel data named "data.xlsx" is uploaded along with the scripts
 ```
 - save the Excel data as data.xlsx into the folder of script
 
