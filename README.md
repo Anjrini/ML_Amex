@@ -51,4 +51,6 @@ y hat and y values in order to do a comparison between the two
 
 The last part of the script is do the plotting of the variable we have chosen for example "REWE" for the years available as well as the y hat we have got from the method specified above.
 
-The results shoud appear as in the photo below
+The results shoud appear as in the photo below:
+
+![alt text](https://github.com/Anjrini/ML_Amex/blob/main/Pics/Results.png?raw=true)
