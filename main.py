@@ -17,7 +17,7 @@ import merging_all
 
 
 #reading the excel file
-df=pd.read_excel("aktiv.xlsx")
+df=pd.read_excel("data.xlsx")
 
 # chossing the company of intereset or choosing all for the whole data
 var="lidl" #please write the name of the company or "all" for the whole costs
