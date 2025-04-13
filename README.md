@@ -26,19 +26,16 @@ Note: a dummy Excel data named "data.xlsx" is uploaded along with the   scripts
 - open the script main.py
 
 - the following required variables have to be changed according to your interest:
---- var: which category are you interested in. For example if the data of "LIDL" is of your concern, then type "LIDL" or "REWE" or "Bahn" ...etc. However if you are interested of the whole data please write "all"
-
-- x_columns: as a list. Here is to provide the list of predictors
-
-- y_column: Here is to provide the column name of the response
-
-- lag: the lagging time in days
+--- **var**: which category are you interested in. For example if the data of "LIDL" is of your concern, then type "LIDL" or "REWE" or "Bahn" ...etc. However if you are interested of the whole data please write "all"
+--- **x_columns**: as a list. Here is to provide the list of predictors
+--- **y_column**: Here is to provide the column name of the response
+--- **lag**: the lagging time in days
 
 depening on the performance of your laptop the following code my take some time in order to run all the methods and get the results MSEs and y_preds
 ```
 MSEs,y_preds=merging_all.m_all(df,x_columns, y_column, lag)
 ```
-The following code is showing the MSEs for all the methods sorted from low to high
+The following code is showing the **MSEs** for all the methods sorted from low to high
 ```
 MSEs
 ```
@@ -49,8 +46,32 @@ After running the code till line 77 the following results appear:
 y hat and y values in order to do a comparison between the two
 ```
 
-The last part of the script is do the plotting of the variable we have chosen for example "REWE" for the years available as well as the y hat we have got from the method specified above.
+## Results
+
+The last part of the script is do the plotting of **the variable** we have chosen for example "REWE" for the years available as well as **the regression line** we have got from the method specified above.
 
 The results shoud appear as in the photo below:
 
 ![alt text](https://github.com/Anjrini/ML_Amex/blob/main/Pics/Results.png?raw=true)
+
+>Note:
+- The **lag** variable is required in order to implement the RNN data Frame for the methods to run as otherwise it comes down to only a simple linear regression
+- The **ISLP Library**  is required and has to be downloaded using:
+``` pip install ISLP ```
+
+## Instructions on dowloading the data from the amex website
+
+- First visit the website:
+```https://www.americanexpress.com/de-de/account/login?inav=iNLogBtn```
+- Sign in into the website and follow the steps below:
+
+![alt text](https://github.com/Anjrini/ML_Amex/blob/main/Pics/instruct1.png?raw=true)
+
+![alt text](https://github.com/Anjrini/ML_Amex/blob/main/Pics/instruct2.png?raw=true)
+
+![alt text](https://github.com/Anjrini/ML_Amex/blob/main/Pics/instruct3.png?raw=true)
+
+Should you have any query, kindly contact me.
+
+Best regards,
+Mustafa Anjrini
