@@ -1,6 +1,6 @@
 # Machine Learning with Amex
 
-This script uses the classical as well as the new methods of machine learning in order to do a data analysis of the data of the American Express transactions downloaded from their website of Germany.
+This script uses the classical as well ase new methods of machine learning in order to do a data analysis of the American Express transactions downloaded from their website of Germany.
 
 The methods implemented are:
 - Neural Network: RNN
@@ -19,7 +19,7 @@ The methods implemented are:
  ```
 https://www.americanexpress.com/de-de/account/login?inav=iNLogBtn
 
-Note: a dummy Excel data named "data.xlsx" is uploaded along with the   scripts
+>Note: a dummy Excel data named "data.xlsx" is uploaded along with the   scripts
 ```
 - save the Excel data as data.xlsx into the folder of script
 
