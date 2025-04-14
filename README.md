@@ -26,10 +26,14 @@ Note: a dummy Excel data named "data.xlsx" is uploaded along with the scripts
 - open the script main.py
 
 - the following required variables have to be changed according to your interest:
---- **var**: which category are you interested in. For example if the data of "LIDL" is of your concern, then type "LIDL" or "REWE" or "Bahn" ...etc. However if you are interested of the whole data please write "all"
---- **x_columns**: as a list. Here is to provide the list of predictors
---- **y_column**: Here is to provide the column name of the response
---- **lag**: the lagging time in days
+
+  --- **var**: which category are you interested in. For example if the data of "LIDL" is of your concern, then type "LIDL" or "REWE" or "Bahn" ...etc. However if you are interested of the whole data please write "all"
+  
+   --- **x_columns**: as a list. Here is to provide the list of predictors
+  
+   --- **y_column**: Here is to provide the column name of the response
+
+   --- **lag**: the lagging time in days
 
 depening on the performance of your laptop the following code my take some time in order to run all the methods and get the results of **test MSEs and y hats**
 ```
