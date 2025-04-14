@@ -31,11 +31,11 @@ Note: a dummy Excel data named "data.xlsx" is uploaded along with the scripts
 --- **y_column**: Here is to provide the column name of the response
 --- **lag**: the lagging time in days
 
-depening on the performance of your laptop the following code my take some time in order to run all the methods and get the results of test MSEs and y hats
+depening on the performance of your laptop the following code my take some time in order to run all the methods and get the results of **test MSEs and y hats**
 ```
 MSEs,y_preds=merging_all.m_all(df,x_columns, y_column, lag)
 ```
-The following code is showing the **MSEs** for all the methods sorted from low to high
+The following code is showing the **test MSEs** for all the methods sorted from low to high
 ```
 MSEs
 ```
