@@ -45,14 +45,14 @@ MSEs
 ```
 - Method: in order to present the results of interest we would need to choose a method from all of those implemented for example "PCA"
 
+## Results
+
 After running the code till line 77 the following results appear:
 ```
 y hat and y values in order to do a comparison between the two
 ```
 
-## Results
-
-The last part of the script is do the plotting of **the variable** we have chosen for example "REWE" for the years available as well as **the regression line** we have got from the method specified above.
+The last part of the script is do the plotting of **the variable** we have chosen for example **"all"** for the years available as well as **the regression line** we have got from the method specified above.
 
 The results shoud appear as in the photo below:
 
